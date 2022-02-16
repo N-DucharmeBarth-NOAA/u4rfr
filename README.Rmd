@@ -1,0 +1,44 @@
+---
+output: 
+  md_document:
+    variant: gfm
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+<!-- badges: start -->
+
+[![GitHub release (latest by
+date)](https://img.shields.io/github/v/release/N-DucharmeBarth-NOAA/u4rrf)](https://github.com/N-DucharmeBarth-NOAA/u4rrf/releases)
+[![R-CMD-check](https://github.com/N-DucharmeBarth-NOAA/u4rrf/workflows/R-CMD-check/badge.svg)](https://github.com/N-DucharmeBarth-NOAA/u4rrf/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
+## u4rfr - Utilities 4 Random Forest Regression
+
+An R package with wrapper functions to automate the fitting of regression models fit using random forest machine learning algorithms.
+
+This package is not actively maintained beyond the specific applications listed below:
+
+- [2022 ISC North Pacific blue shark stock assessment](https://github.com/N-DucharmeBarth-NOAA/2022_BSH): u4rfr used to conduct a catch reconstruction of the blue shark catch from the Hawaii longline.
+
+
+
+<!-- Do not edit below. This adds the Disclaimer and NMFS footer. -->
+
+****
+
+```{r add-disclaimer, echo=FALSE, results='asis'}
+url <- "https://raw.githubusercontent.com/nmfs-fish-tools/Resources/master/Disclaimer.md"
+childtext <- readLines(url)
+cat(childtext, sep="\n")
+```
+
+****
+
+```{r footer, echo=FALSE, results='asis'}
+url <- "https://raw.githubusercontent.com/nmfs-fish-tools/Resources/master/footer.md" 
+childtext <- readLines(url)
+cat(childtext, sep="\n")
+```
+
+
