@@ -1,15 +1,10 @@
 ---
-output: 
-  md_document:
-    variant: gfm
+output: github_document
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 <!-- badges: start -->
-
-[![GitHub release (latest by
-date)](https://img.shields.io/github/v/release/N-DucharmeBarth-NOAA/u4rrf)](https://github.com/N-DucharmeBarth-NOAA/u4rrf/releases)
 [![R-CMD-check](https://github.com/N-DucharmeBarth-NOAA/u4rrf/workflows/R-CMD-check/badge.svg)](https://github.com/N-DucharmeBarth-NOAA/u4rrf/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
