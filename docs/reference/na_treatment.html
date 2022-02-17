@@ -79,10 +79,13 @@ This function is set-up to handle data geared towards univariate analysis (e.g. 
 <dt>treatment_type</dt>
 <dd><p>Specifies how the missing values are treated.</p><dl><dt>'omit'</dt>
 <dd><p>Missing values are omitted from the data set.</p></dd>
+
 <dt>'central_tendency'</dt>
 <dd><p>Missing values are replaced with the median and modal values for continuous and discrete covariates, respectively.</p></dd>
+
 <dt>class(list)</dt>
 <dd><p>A list either with entries (type = "resample", "random_seed" = i) or (type = "impute", ntree = n). For type resample, missing values are replaced with randomly re-sampled observations where i sets the random seed. For type impute, the missRanger package is used to impute missing values using a random forest machine learning algorithm.</p></dd>
+
 
 </dl></dd>
 <dt>id_var</dt>
@@ -100,8 +103,10 @@ This function is set-up to handle data geared towards univariate analysis (e.g. 
     <h2>Value</h2>
     <p>A named list is returned.</p><dl><dt>data</dt>
 <dd><p>A class data.frame object without any missing values.</p></dd>
+
 <dt>report</dt>
 <dd><p>A text report of the processing that occurred.</p></dd>
+
 
 </dl></div>
 

@@ -23,9 +23,9 @@ na_treatment(
 
 \item{treatment_type}{Specifies how the missing values are treated.
 \describe{
-\item{'omit'}Missing values are omitted from the data set.
-\item{'central_tendency'}Missing values are replaced with the median and modal values for continuous and discrete covariates, respectively.
-\item{class(list)}A list either with entries (type = "resample", "random_seed" = i) or (type = "impute", ntree = n). For type resample, missing values are replaced with randomly re-sampled observations where i sets the random seed. For type impute, the missRanger package is used to impute missing values using a random forest machine learning algorithm.
+\item{'omit'}{Missing values are omitted from the data set.}
+\item{'central_tendency'}{Missing values are replaced with the median and modal values for continuous and discrete covariates, respectively.}
+\item{class(list)}{A list either with entries (type = "resample", "random_seed" = i) or (type = "impute", ntree = n). For type resample, missing values are replaced with randomly re-sampled observations where i sets the random seed. For type impute, the missRanger package is used to impute missing values using a random forest machine learning algorithm.}
 }}
 
 \item{id_var}{The column name of 'data_df' containing the observation id or row id.}
@@ -41,8 +41,8 @@ na_treatment(
 \value{
 A named list is returned.
 \describe{
-\item{data}A class data.frame object without any missing values.
-\item{report}A text report of the processing that occurred.
+\item{data}{A class data.frame object without any missing values.}
+\item{report}{A text report of the processing that occurred.}
 }
 }
 \description{
