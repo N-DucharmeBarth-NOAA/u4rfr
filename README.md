@@ -1,7 +1,7 @@
 ---
-output: 
-  md_document:
-    preserve_yaml: false
+output:
+  github_document:
+    keep_html: true
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
