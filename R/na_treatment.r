@@ -7,9 +7,9 @@
 #' @param na_thresh Specify a proportion between 0 and 1. Any covariate with the proportion of missing data greater than this threshold value will simply be excluded.
 #' @param treatment_type Specifies how the missing values are treated.
 #' \describe{
-#'		\item{'omit'} Missing values are omitted from the data set.
-#'		\item{'central_tendency'} Missing values are replaced with the median and modal values for continuous and discrete covariates, respectively.
-#'      \item{class(list)} A list either with entries (type = "resample", "random_seed" = i) or (type = "impute", ntree = n). For type resample, missing values are replaced with randomly re-sampled observations where i sets the random seed. For type impute, the missRanger package is used to impute missing values using a random forest machine learning algorithm.
+#'		\item{'omit'}Missing values are omitted from the data set.
+#'		\item{'central_tendency'}Missing values are replaced with the median and modal values for continuous and discrete covariates, respectively.
+#'      \item{class(list)}A list either with entries (type = "resample", "random_seed" = i) or (type = "impute", ntree = n). For type resample, missing values are replaced with randomly re-sampled observations where i sets the random seed. For type impute, the missRanger package is used to impute missing values using a random forest machine learning algorithm.
 #' }
 #' @param id_var The column name of 'data_df' containing the observation id or row id.
 #' @param response_var The column name of 'data_df' containing the response variable. This column is not treated for missing values. 
@@ -18,8 +18,8 @@
 #' @param verbose Defaults to FALSE. Print the report?
 #' @return A named list is returned. 
 #' \describe{
-#'		\item{data} A class data.frame object without any missing values.
-#'		\item{report} A text report of the processing that occurred.
+#'		\item{data}A class data.frame object without any missing values.
+#'		\item{report}A text report of the processing that occurred.
 #' }
 #' @export
 #' @importFrom data.table as.data.table
