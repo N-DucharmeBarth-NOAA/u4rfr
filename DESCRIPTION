@@ -1,0 +1,19 @@
+Package: u4rfr
+Title: u4rfr - Utilities for random forest regression
+Date: 2022-02-16
+Version: 1.0.0
+Authors@R: person("Nicholas", "Ducharme-Barth", , "nicholas.ducharme-barth@noaa.gov", role = c("aut", "cre"))
+URL: https://github.com/N-DucharmeBarth-NOAA/u4rfr
+BugReports: https://github.com/N-DucharmeBarth-NOAA/u4rfr/issues
+Description: Utility functions for random forest regression.
+Depends: R (>= 4.0.0)
+Suggests: 
+    rmarkdown,
+    knitr
+Imports: missRanger, ranger, randomForest, data.table, magrittr
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Roxygen: list(markdown = TRUE)
+VignetteBuilder: knitr
