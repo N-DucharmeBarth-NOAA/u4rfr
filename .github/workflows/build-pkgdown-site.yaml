@@ -4,7 +4,7 @@ name: update-pkgdown-site
 
 jobs:
   update-pkgdown-site:
-    runs-on: ubuntu-latest
+    runs-on: macOS-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
