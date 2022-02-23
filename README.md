@@ -19,6 +19,16 @@ listed below:
     used to conduct a catch reconstruction of the blue shark catch from
     the Hawaii longline.
 
+## Installation
+
+u4rfr is not currently supported on CRAN. You can install the
+development version of u4rfr from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("N-DucharmeBarth-NOAA/u4rfr")
+```
+
 <!-- Do not edit below. This adds the Disclaimer and NMFS footer. -->
 
 -----
